@@ -1,0 +1,935 @@
+.anclaconfig{
+    margin:10px;
+    padding: 10px;
+    background-color: white;
+    color:orange;
+    width: 118px;
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+   
+    font-weight:600;
+    border-radius:8px;
+    font-size: 16px;
+    box-shadow: 1px 1px #888888;
+}
+.anclaconfig span{
+    text-align: center;
+    color:black;
+    font-weight:600;
+}
+.anclaconfig:hover{
+    transition: ease 0.4s;
+    color:white;
+    box-shadow: none;
+    border:2px solid orange;
+}
+.imgconfig{
+    margin:10px;
+    width:40px;
+    height: 40px;
+    transition: ease 1s;
+    color:white;
+}
+/*
+.imgconfig:hover{
+    cursor:pointer;
+    width:134px;height: 135px;
+    transition: ease 1s;
+    color:white;
+}*/
+
+.contconfig{
+    display:flex;flex-direction: column;justify-content: center;align-items: center;
+    width:100% !important; 
+    padding-top:20px;
+}
+#general, #personalizacion{
+    padding:20px;
+    margin-bottom: 16px;
+    width:50%;
+    border :1px solid gray;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+
+
+
+}
+#general .title, #personalizacion .title{
+    width:100%;
+    display:flex;justify-content: center;align-items: center;
+}
+#general .title h6, #personalizacion .title h6{
+    padding-bottom: 10px;
+    width:96%;
+    text-align: center;
+   border-bottom: 1px solid gray;
+   align-items: center;
+}
+#configtitulo{
+    margin-top: 20px;
+}
+#impresoradeetiquetas{
+    display:flex;justify-content: center;align-items: center;width:100%;
+    margin-bottom:10px;
+}
+#impresoradeetiquetas .ancla{
+    margin-top:10px;
+    width:56%;
+    
+}
+
+
+/* XXXXXXXXXXXXXX            Modales Configuración       XXXXXXXXXXXXXXXXXXXXXXXXXXx*/
+
+        /* Opciones Habilitadas*/
+#opcioneshabilitadas{
+    max-width:60% !important;
+    padding:20px;
+    overflow: hidden;
+    height:auto !important;
+}
+#opcioneshabilitadas input:focus, #opcioneshabilitadas input:hover,
+#cajeros input:focus, #cajeros input:hover 
+    {
+        cursor:pointer;
+        border: 1px solid orange;
+        box-shadow: none;
+        background-color: #F8F8FF;
+}
+
+#opcioneshabilitadas .inputglobal{
+    background-color: white;
+    outline-style: none;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style:none;
+    text-align:center;
+    height: 36px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px #888888;
+}
+#opcioneshabilitadas .porcentaje{
+    background-color: white;
+    outline-style: none;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style:none;
+    text-align:center;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px #888888;
+}
+
+#opcioneshabilitadas div{
+    width:100%;margin-top:10px;
+}
+
+
+/* cajeros*/
+#cajeros{
+    padding:20px;
+    max-width: 800px;
+    height:auto;
+    overflow: hidden;
+    
+}
+
+
+#cajeros .inputglobal{
+   
+    background-color: white;
+    outline-style: none;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style:none;
+    text-align:center;
+    height: 36px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px #888888;
+}
+
+#contc{
+    display:flex;
+}
+
+.c1, .c2{
+    width:50%
+}
+#search{
+    background-color: white;
+  
+    border-radius: 8px;
+    text-align:center;
+    height: 36px;
+
+}
+
+.anclanaranjaconfig{
+    background-color: white;
+    color:orange;
+    font-size: 16px;
+    height: 36px;
+    width:50%;
+    margin:10px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    box-sizing: border-box;
+    box-shadow: 1px 1px #888888;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.anclanaranjaconfig> i{
+    margin-right: 10px;
+
+}
+#funcionescajero{
+    width:40%;
+    padding:10px;
+    height:auto;
+    overflow: hidden;
+
+}
+#funcionescajero #colu1, #funcionescajero #colu2 {
+   
+   width: 50%;
+
+}
+
+
+#bbdd{
+    width: 70%;
+    height:auto !important;
+    overflow: hidden;
+}
+
+#contancla{
+    display:flex;
+}
+
+ #bbdd .anclanaranjaconfig{
+    max-width: 320px;
+    font-size: 15px; 
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    margin:10px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    box-sizing: border-box;
+    box-shadow: 1px 1px #888888;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center; 
+}
+#bbdd .anclanaranjaconfig:hover,  #bbdd .anclanaranjaconfig:focus{
+    cursor:pointer;
+    border:1px solid orange;
+    
+}
+
+#bbdd h5{
+    font-size: 16px;
+}
+
+#precargados{
+    padding:20px;
+    width: 50%;
+}
+#nuevoDepartamento
+{
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+}
+
+#ticket
+{
+    padding: 20px;
+    width: 600px;
+    height: 220px;
+}
+#ticket p
+{
+    text-align: center;
+}
+
+#persoticket{
+    padding: 20px;
+    max-width: 800px !important;
+    height: auto !important;
+
+}
+#persoticket label{
+
+display: flex;
+justify-content:start;
+align-self: flex-start;
+
+}
+#persoticket span{
+
+margin-left: 0;
+    
+    }
+
+.conttextarea{
+    width: 40%;padding: 10px;
+}
+#persoticket textarea {
+width: 100%; 
+height: 360px; 
+background-color: white;
+
+}
+#persoticket textarea:hover, #persoticket textarea:focus {
+    cursor:pointer;
+    border: 1px solid orange;
+    }
+
+#formadepago{
+   padding: 20px;
+    max-width:700px;
+    overflow:visible;
+
+}
+#impuestos{
+    padding: 40px;
+    width:500px;
+    height: auto;
+}
+
+#modificarmoneda{
+    width:30%;
+    padding:20px;
+}
+#modificarmoneda .contenidosimbolo{
+    padding: 0 68px;
+}
+
+#modificarmoneda input{
+   width:30%;
+   height:36px;
+    background-color: white;
+    border-radius:8px;
+}
+
+#modificarmoneda input:focus, #modificarmoneda input:hover{
+    cursor:pointer;
+    background-color: white;color:orange;
+    border:1px solid orange;
+
+ }
+
+ #cajondedinero{
+     max-width:700px;
+     padding:20px;
+ }
+ #cajondedinero #select1{
+    max-width:450px;
+    display: flex;outline-style: none; border: 1px solid orange;
+ }
+
+ #cajondedinero #select2{
+    width:150px;
+    display: flex;outline-style: none; border: 1px solid orange;
+ }
+ #cajondedinero #probar{
+    max-width: 300px; margin: 20px 0;
+ }
+
+ #udemedidas{
+     max-width: 500px;
+    
+    padding:20px;
+}
+#udemedidas .contenidosimbolo{
+    padding: 0 68px;
+}
+
+#udemedidas input{
+   width:30%;
+   height:36px;
+    background-color: white;
+    border-radius:8px;
+}
+
+#udemedidas input:focus, #udemedidas input:hover,
+#impresoratickets  .inputglobal:hover,#impresoratickets  .inputglobal:focus,
+#impresoratickets  .inputglobal2:hover,#impresoratickets  .inputglobal2:focus
+{
+    cursor:pointer;
+    background-color: white;color:orange;
+    border:1px solid orange;
+
+ }
+
+ #impresoratickets{
+     width:600px;
+     padding: 20px;
+     height:auto;
+ }
+ #impresoratickets .continput div{
+
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 20px;
+
+ }
+ #impresoratickets .continput p{
+
+    margin-bottom: 10px;
+
+}
+ #impresoratickets  .inputglobal{
+    width:70%;
+    height:36px;
+     background-color: white;
+     border-radius:8px;
+}
+#impresoratickets  .inputglobal2{
+
+    width:20%;
+    height:36px;
+     background-color: white;
+     border-radius:8px;
+}
+
+#lectorcodigos{
+    padding:20px;
+    width:700px;
+}
+#lectorcodigos p{
+margin-bottom:15px;
+
+}
+#lectorcodigos .ancla{
+    background-color: white;
+    font-size: 13px;
+    height: 32px;
+    width:40%;
+   margin-top:20px;
+    }
+
+    #foliotickets{
+        padding:20px;
+        max-width:40%;
+    }
+
+    #foliotickets .ancla{
+        background-color: white;
+        outline-style: none;
+        font-size: 20px;
+        border-radius: 8px;
+        border-style:none;
+        text-align:center;
+        height: 36px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px #888888;
+        }
+
+        #foliotickets .ancla:focus,  #foliotickets .ancla:hover 
+    {
+        cursor:pointer;
+        border: 1px solid orange;
+        box-shadow: none;
+        background-color: #F8F8FF;
+}
+
+
+    
+/* 1600 px*/                      /* NNNNNNNNNNNNN           Media  Queries   NNNNNNNNNNNNNNNNNN*/
+@media screen and (max-width: 1600px) {
+
+    #general, #personalizacion{
+        width:70%;}
+          
+  }
+  
+  /* 1400 px*/
+  
+  @media screen and (max-width: 1400px) {
+      #opcioneshabilitadas{
+        padding:20px;
+
+    }
+    #opcioneshabilitadas div{
+      margin-top:5px;
+    }
+
+
+    .anclanaranjaconfig{
+        font-size: 13px;
+        height: 32px;
+        width:50%;
+        margin:8px;
+
+    } 
+ 
+#bbdd .anclanaranjaconfig{
+font-size: 14px;
+
+}
+
+#modificarmoneda{
+    width:30%;
+    padding:20px;
+}
+#modificarmoneda .contenidosimbolo{
+
+    padding: 0 30px;
+}
+
+#modificarmoneda input{
+   width:26%;
+   height:32px;
+    background-color: white;
+    border-radius:8px;
+}
+
+#cajondedinero{
+    max-width:700px;
+    padding:20px;
+}
+#cajondedinero #select1{
+   max-width:380px;
+  
+}
+
+#cajondedinero #select2{
+   width:150px;
+}
+
+
+    
+
+  }
+    /* 1200 px*/
+  
+ @media screen and (max-width: 1100px) {
+
+    #general, #personalizacion{
+        width:96%;}
+          
+  }
+        #opcioneshabilitadas{
+            width:80% !important;
+        
+     
+        }
+        #cajeros{
+         width: 800px;
+            height:auto;
+            overflow: hidden;
+            
+        }
+        #cajeros  .c1{
+            width: 60%;
+        }
+        #funcionescajero{
+            width:60%;
+        
+        }
+
+        #bbdd{
+            width: 80%;
+            height:1200px;
+            overflow: hidden;
+
+        }
+
+        #contancla{
+          flex-wrap: wrap;
+        }
+        
+    #contancla .anclanaranjaconfig{
+            max-width: 250px;
+            font-size: 14px;
+           
+        }
+
+ #bbdd .anclanaranjaconfig{
+    font-size: 14px;
+   
+}
+#persoticket textarea {
+    width: 160px; 
+    height: 200px; 
+}
+    
+
+#nuevoDepartamento
+{
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+}
+#ticket
+{
+    padding-top: 15px;
+    width: 500px;
+    height: 200px;
+}
+#ticket h4
+{
+font-size: 24px;
+}
+#ticket p
+{
+font-size: 16px;
+
+}
+
+#modificarmoneda .contenidosimbolo{
+        
+    padding: 0 20px;
+}
+
+#cajondedinero{
+    max-width:600px;
+    padding:20px;
+}
+#cajondedinero #select1{
+   max-width:320px;
+  
+}
+
+#cajondedinero #select2{
+   width:120px;
+}
+#cajondedinero #probar{
+    max-width: 200px; margin: 20px 0;
+ }
+ 
+ #impresoratickets{
+    width:460px;
+    
+}
+    }
+  
+  /* 1020 px*/
+  
+  @media screen and (max-width: 1024px) {
+
+  
+    #foliotickets{
+        max-width:70% !important;
+      }
+
+
+  
+    #persoticket{
+        max-width: 80% !important;
+        height: auto !important;
+    
+    }
+    #persoticket  .conttextarea{
+        width: 30%;padding: 10px;
+    }
+  
+    #persoticket textarea {
+    width: 120px; 
+    height: 180px; 
+    background-color: white;
+    
+    }
+
+        #impuestos{
+            padding: 20px;
+            width:80% !important;
+            height: auto;
+        }
+
+        #modificarmoneda{
+            width:60% !important;
+            padding:5px;
+        }
+        #modificarmoneda .contenidosimbolo{
+        
+            padding: 0 5px;
+        }
+        
+        #modificarmoneda input{
+           width:40%;
+           height:32px;
+            background-color: white;
+            border-radius:8px;
+        }
+
+
+  }
+         /* 768 px*/  
+  @media screen and (max-width: 768px) {
+    .anclaconfig{
+        margin:8px;
+        padding: 10px;
+        width: 89px;
+        height: 90px;    
+
+        font-size:12px;
+    }
+    #general, #personalizacion{
+        padding:8px;
+        margin-bottom: 16px;
+        width: 94%;
+    }
+    .imgconfig{
+        margin-top:0;
+        width: 33px;
+        height: 34px;
+      
+    }
+
+ 
+    .contconfig h2{
+        font-size:30px;
+    }
+    .contconfig h4{
+        font-size:20px;
+    }
+
+    #opcioneshabilitadas{
+        width:90% !important;
+        overflow: scroll    ;
+
+    }    
+
+    #opcioneshabilitadas .inputglobal,    
+#opcioneshabilitadas .porcentaje{
+    font-size: 14px;
+    height: 30px;
+}
+
+#contc{
+    flex-direction: column;
+}
+#cajeros  .c1{
+    width: 100%;
+}
+#cajeros  .c2{
+    width: 100%;
+}
+
+/* cajeros*/
+#cajeros{
+    padding:10px;
+    width: 80%;
+    height:auto;
+    overflow:scroll;
+}
+
+
+#cajeros .inputglobal{
+    font-size: 20px;
+     height: 36px;  
+}
+.c1, .c2{
+    width:50%
+}
+#search{
+    height: 36px;
+}
+
+#funcionescajero{
+    width:80%;
+}
+#bbdd{
+    width: 80%;
+}
+#precargados{
+    width: 80%;
+}
+
+#modificarmoneda{
+   max-width:70% !important;
+    
+}
+#modificarmoneda .contenidosimbolo{
+
+    padding: 0 2px;
+}
+#contancla{ 
+    display:flex;
+}
+ #bbdd .anclanaranjaconfig{
+    max-width: 320px;
+    font-size: 13px;
+    height: 24px;  
+}
+#nuevoDepartamento
+{
+    padding: 15px;
+    width: 600px;
+    height: 300px;
+}
+#ticket
+{
+    padding-top: 15px;
+    width: 400px;
+    height: 200px;
+}
+#ticket .inputglobal
+{
+
+    height: 30px;
+}
+#ticket h4
+{
+font-size: 24px;
+}
+#ticket p
+{
+font-size: 14px;
+}
+
+#modificarmoneda{
+    width:60%;
+    padding:20px;
+}
+
+
+#cajondedinero{
+    max-width:500px;
+    padding:20px;
+}
+#cajondedinero #select1{
+   max-width:240px;
+  
+}
+
+#cajondedinero #select2{
+   width:100px;
+}
+#cajondedinero #probar{
+    max-width: 200px; margin: 20px 0;
+ }
+ 
+
+ #udemedidas .contenidosimbolo{
+    padding: 0 28px;
+}
+#impresoratickets{
+    width:360px;
+    
+}
+#lectorcodigos{
+    padding:20px;
+    width:90%;
+}
+#lectorcodigos p{
+margin-bottom:15px;
+
+}
+#lectorcodigos .ancla{
+    width:50%;
+    }
+
+#persoticket{
+        max-width: 90% !important;
+        height: auto !important;
+    }
+
+    #persoticket  .conttextarea{
+        width: 30%;padding: 5px;
+    }
+  
+    #persoticket textarea {
+    width: 80px; 
+    height: 120px; 
+    background-color: white;
+    }   
+ #impresoratickets{
+    width:90%;
+    padding: 20px;
+    height:auto;
+}
+  }
+  @media screen and (max-width: 600px) {
+
+    #opcioneshabilitadas{
+        max-width:90% !important;
+    }   
+    #cajeros{
+            max-width:95% !important;
+    }
+    #bbdd{
+        max-width:95% !important;
+        overflow: scroll;
+}
+    #bbdd .anclanaranjaconfig{
+        width: 100%;
+    }
+    #modificarmoneda{
+        width: 90% !important; 
+        padding:10px;
+    }
+    #modificarmoneda .inputglobal{
+        width:20%;
+        height:32px;
+     }
+     
+ #udemedidas{
+    max-width: 90%;
+   padding:10px;
+}
+#udemedidas .contenidosimbolo{
+   padding: 0 10px;
+}
+#udemedidas input{
+  width:40%;
+  height:36px;
+   background-color: white;
+   border-radius:8px;
+}
+#cajondedinero #select1{
+    max-width:65%;
+    height: 32px; 
+ }
+ #cajondedinero #select2{
+    height: 32px;
+    width:30%;
+ }
+ #foliotickets{
+    max-width:90% !important;
+  }
+  #configtitulo{
+      font-size:16px;
+  }
+  #general, #personalizacion{
+      width:96%;
+    padding:4px;
+}
+#general .title h6, #personalizacion .title h6{
+    font-size: 14px;
+}
+#configtitulo{
+    margin-top: 2px;
+}
+.anclaconfig{
+    margin:10px;
+    padding: 10px;
+
+    width: 78px;
+    height: 79px;
+  
+}
+.anclaconfig span{
+   font-size:11px;
+  
+}
+.imgconfig{
+
+    width: 28px;
+    height: 29px;
+  
+}
+  }  
